@@ -7,7 +7,7 @@ GENERAL
 .bg-default-02 { background-color: #ddd; border: 1px solid #ccc; }
 .text-black { color: #000; }
 .bg-cover-index {
-	background-image: url("http://placehold.it/1920x1080");
+	background-image: url("http://placehold.it/1920x1080") !important;
 }
 /*=============================================================================
 THANKS PAGE

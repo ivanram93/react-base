@@ -4,7 +4,28 @@ import './assets/css/App.css';
 
 class App extends Component {
   render() {
-    return (
+    return(
+      <div className="App">
+        <section className="App cover bg-cover-index">
+          <span className="sr-only">If you need to add a cover to your page</span>
+        </section>
+
+        <div className="container-fluid py-3">
+          <div className="row">
+            <div className="col-md-4 p-0">
+              <img className="img-fluid d-block" src="http://placehold.it/650x300.png" alt=""/>
+            </div>
+            <div className="col-md-4 p-0">
+              <img className="img-fluid d-block" src="http://placehold.it/650x300.png/333/aaa/" alt=""/>
+            </div>
+            <div className="col-md-4 p-0">
+              <img className="img-fluid d-block" src="http://placehold.it/650x300.png" alt=""/>
+            </div>
+          </div>
+        </div>
+      </div>
+    ); 
+    /*return (
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
@@ -20,8 +41,11 @@ class App extends Component {
             Learn React
           </a>
         </header>
+        <div className="second-div">
+          <p className="h3">HOLA MUNDO!</p>
+        </div>
       </div>
-    );
+    );*/
   }
 }
 
